@@ -1,0 +1,13 @@
+*.h5
+**.pyc
+*.arc
+*.mop
+*.out
+*.npz
+*.txt
+
+wandb/
+checkpoints/
+pretrain/
+logs/
+pics/
