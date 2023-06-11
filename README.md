@@ -37,10 +37,8 @@ python eval.py --root <path_to_data> --model_path <path_to_model_dir> --epoch <s
 
 ## Pre-trained Models
 You can download pretrained models here:
-
-- [My awesome model](https://drive.google.com/mymodel.pth) trained on ImageNet using parameters x,y,z. 
-
->📋  Give a link to where/how the pretrained models can be downloaded and how they were trained (if applicable).  Alternatively you can have an additional column in your results table with a link to the models.
+[Schnet pretrain](https://drive.google.com/drive/folders/1PXVkEkVWZP1oDGIpjUtK2gvTSpJgB55x?usp=sharing) trained on MD17. 
+other configs can be found in info.txt in each checkpoint folder.
 
 ## Results
 Our model achieves the following performance on MD17 with metrics Energy MAE, Force MAE, EFwT defined by [Open Catalyst 2020 (OC20) Dataset and Community Challenges](https://opencatalystproject.org/leaderboard.html).
