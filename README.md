@@ -38,7 +38,7 @@ python eval.py --root <path_to_data> --model_path <path_to_model_dir> --epoch <s
 ## Pre-trained Models
 You can download pretrained models here:
 [Schnet pretrain](https://drive.google.com/drive/folders/1PXVkEkVWZP1oDGIpjUtK2gvTSpJgB55x?usp=sharing) trained on MD17. 
-other configs can be found in info.txt in each checkpoint folder.
+Other configs can be found in info.txt in each checkpoint folder.
 
 ## Results
 Our model achieves the following performance on MD17 with metrics Energy MAE, Force MAE, EFwT defined by [Open Catalyst 2020 (OC20) Dataset and Community Challenges](https://opencatalystproject.org/leaderboard.html).
@@ -54,8 +54,8 @@ Our model achieves the following performance on MD17 with metrics Energy MAE, Fo
 | Schnet-bias (Toluene)        | 118.788 -> **0.106** | 0.304 -> **0.173** | 0 -> **0.492** |
 | Schnet-bias (Uracil)         | 440.164 -> **0.127** | 0.376 -> **0.265** | 0 -> **0.030** |
 
-Each cell show the improvement of this work from original structure: <original model error> -> <biased model error>
-Above results are also presented in ./experiments/Schnet/Schnet.ipynb
+Each cell show the improvement of this work from original structure: original_model_error -> biased_model_error, better one in bold.  
+Above results are also presented in ./experiments/Schnet/Schnet.ipynb and models to produce this result are available in Pre-train Models section.
 
 ## Contributing
 Copyright (C) 2023 Kai Chieh Lo
