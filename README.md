@@ -54,6 +54,7 @@ Our model achieves the following performance on MD17 with metrics Energy MAE, Fo
 | Schnet-bias (Toluene)        | 118.788 -> **0.106** | 0.304 -> **0.173** | 0 -> **0.492** |
 | Schnet-bias (Uracil)         | 440.164 -> **0.127** | 0.376 -> **0.265** | 0 -> **0.030** |
 
+Each cell show the improvement of this work from original structure: <original model error> -> <biased model error>
 Above results are also presented in ./experiments/Schnet/Schnet.ipynb
 
 ## Contributing
