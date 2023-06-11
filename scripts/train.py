@@ -147,7 +147,8 @@ def train(args, model_path, device):
         # log
         if args.wandb:
             log_dict = {f"{i:03d}_"+name:torch.mean(param.data) for i, (name, param) in enumerate(model.named_parameters())}
-            log_dict2 = {f"{i:03d}_"+name+"_grad":torch.mean(param.grad) for i, (name, param) in enumerate(model.named_parameters())}
+            log_dict2 = {f"{i:03d}_"+name+"_grad":torch.mean(param.grad) for i, (name, param) in enumerate(model.named_parameters()) \
+                         if param.grad != None}
             log_dict.update(log_dict2)
             log_dict.update({"loss": epo_loss, "lossE": epo_lossE, 
                              "lossF": epo_lossF, "lr":optimizer.param_groups[0]["lr"]})

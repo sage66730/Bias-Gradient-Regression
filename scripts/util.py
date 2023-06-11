@@ -2,7 +2,7 @@ import csv
 import torch
 
 # import loss_fn
-from losses import *
+from .losses import *
 
 # import models
 from models.schnet.schnet import SchNetWrap
@@ -38,6 +38,7 @@ def get_loss_fn(loss_fn):
     if loss_fn == "AtomForceLoss": return AtomForceLoss
 
     # toggling force and energy loss
+    if loss_fn == "Fz_FELoss": return Fz_FELoss
     if loss_fn == "F_ELoss": return F_ELoss
     if loss_fn == "F50_E10Loss": return F50_E10Loss
     if loss_fn == "F10_E10Loss": return F10_E10Loss
