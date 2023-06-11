@@ -43,16 +43,16 @@ other configs can be found in info.txt in each checkpoint folder.
 ## Results
 Our model achieves the following performance on MD17 with metrics Energy MAE, Force MAE, EFwT defined by [Open Catalyst 2020 (OC20) Dataset and Community Challenges](https://opencatalystproject.org/leaderboard.html).
 
-| Model name                   | Energy MAE       | Force MAE      | EFwT       |
-| ---------------------------- |----------------- | -------------- | ---------- |
-| Schnet-bias (Aspirin)        | 242.458 -> 0.149 | 0.442 -> 0.262 | 0 -> 0.071 |
-| Schnet-bias (Benzene)        | 14.520 -> 0.075  | 0.276 -> 0.192 | 0 -> 0.513 |
-| Schnet-bias (Ethanol)        | 46.123 -> 0.056  | 0.253 -> 0.128 | 0 -> 0.904 |
-| Schnet-bias (Malonaldehyde)  | 190.557 -> 0.087 | 0.378 -> 0.209 | 0 -> 0.637 |
-| Schnet-bias (Naphthalene)    | 101.642 -> 0.134 | 0.256 -> 0.150 | 0 -> 0.752 |
-| Schnet-bias (Salicylic acid) | 197.106 -> 0.115 | 0.314 -> 0.262 | 0 -> 0.060 |
-| Schnet-bias (Toluene)        | 118.788 -> 0.106 | 0.304 -> 0.173 | 0 -> 0.492 |
-| Schnet-bias (Uracil)         | 440.164 -> 0.127 | 0.376 -> 0.265 | 0 -> 0.030 |
+| Model name                   | Energy MAE           | Force MAE          | EFwT           |
+| ---------------------------- |--------------------- | ------------------ | -------------- |
+| Schnet-bias (Aspirin)        | 242.458 -> **0.149** | 0.442 -> **0.262** | 0 -> **0.071** |
+| Schnet-bias (Benzene)        | 14.520 -> **0.075**  | 0.276 -> **0.192** | 0 -> **0.513** |
+| Schnet-bias (Ethanol)        | 46.123 -> **0.056**  | 0.253 -> **0.128** | 0 -> **0.904** |
+| Schnet-bias (Malonaldehyde)  | 190.557 -> **0.087** | 0.378 -> **0.209** | 0 -> **0.637** |
+| Schnet-bias (Naphthalene)    | 101.642 -> **0.134** | 0.256 -> **0.150** | 0 -> **0.752** |
+| Schnet-bias (Salicylic acid) | 197.106 -> **0.115** | 0.314 -> **0.262** | 0 -> **0.060** |
+| Schnet-bias (Toluene)        | 118.788 -> **0.106** | 0.304 -> **0.173** | 0 -> **0.492** |
+| Schnet-bias (Uracil)         | 440.164 -> **0.127** | 0.376 -> **0.265** | 0 -> **0.030** |
 
 Above results are also presented in ./experiments/Schnet/Schnet.ipynb
 
